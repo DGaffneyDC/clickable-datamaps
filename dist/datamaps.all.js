@@ -313,7 +313,7 @@
 
           if (options.highlightOnClick && $this.attr('selected') == 'true') {
             var previousAttributes = {
-              'stroke': $this.style('stroke'),
+              'stroke': '#673AB7',
               'stroke-width': $this.style('stroke-width'),
               'fill-opacity': $this.style('fill-opacity')
             };
